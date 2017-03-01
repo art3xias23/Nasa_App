@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
   
-  get '/nasaindex', to: 'NasaPicture#index'
+  get '/nasaindex', to: 'nasa_picture#index'
 
   root 'static_pages#home'
   get  '/help',    to: 'static_pages#help'
