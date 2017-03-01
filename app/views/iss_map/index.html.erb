@@ -1,8 +1,9 @@
 <% provide(:title, 'Where is the ISS?') %>
-<h1>Name: <%= @iss_api["name"] %></h1>
-<h1>ID: <%= @iss_api["id"] %></h1>
-<h1>Latitude: <%= @iss_api["latitude"] %></h1>
-<h1>Longitude: <%= @iss_api["longitude"] %></h1>
-<h1>Altitude: <%= @iss_api["altitude"] %></h1>
-<h1>Units: <%= @iss_api["units"] %></h1>
-<h1>Timestamp: <%= @iss_api["timestamp"] %></h1>
+<h3>Name: <%= @iss_api["name"] %></h3>
+<h3>ID: <%= @iss_api["id"] %></h3>
+<h3>Latitude: <%= @iss_api["latitude"] %></h3>
+<h3>Longitude: <%= @iss_api["longitude"] %></h3>
+<h3>Altitude: <%= @iss_api["altitude"] %></h3>
+<h3>Units: <%= @iss_api["units"] %></h3>
+<h3>Timestamp: <%= @iss_api["timestamp"] %></h3>
+<%= @iss_map["map_url"] %>
