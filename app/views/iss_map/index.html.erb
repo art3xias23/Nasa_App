@@ -7,3 +7,35 @@
 <h3>Units: <%= @iss_api["units"] %></h3>
 <h3>Timestamp: <%= @iss_api["timestamp"] %></h3>
 <%= @iss_map["map_url"] %>
+
+<div id="map" style="width:100%;height:500px"></div>
+
+<script>
+function myMap() {
+  var myLatLng = {lat: <%= @iss_api["latitude"] %>, lng: <%= @iss_api["longitude"] %>};
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {
+    center: myLatLng,
+     zoom: 3
+  }
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  // var image = 'http://icons.iconarchive.com/icons/jonathan-rey/star-wars-vehicles/256/Trade-Federation-Battleship-icon.png'
+  var icon = {
+    url: "http://icons.iconarchive.com/icons/jonathan-rey/star-wars-vehicles/256/Trade-Federation-Battleship-icon.png", // url
+    scaledSize: new google.maps.Size(100, 100), // scaled size
+    origin: new google.maps.Point(0,0), // origin
+    anchor: new google.maps.Point(0, 0) // anchor
+};
+  var marker = new google.maps.Marker({
+          position: myLatLng,
+          animation: google.maps.Animation.BOUNCE,
+          map: map,
+          icon: icon,
+          size: new google.maps.Size(100, 100),
+          title: 'Hello World!'
+  });
+ 
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
