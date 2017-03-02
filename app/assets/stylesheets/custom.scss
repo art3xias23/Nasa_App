@@ -129,15 +129,27 @@ textarea {
 .center {
   
   text-align: center;
-  // background: #27a967;
-  // color: white;
+  /*background: #E9967A;
+  color: grey; */
 }
 
 .center h1 {
   margin-bottom: 10px;
-  // color: white;
-  // font-size: 26px;
+  /*color: white;
+  font-size: 26px;*/
 }
+
+ .jumbotron {
+background-image: url("http://www.wallpaperhd.pk/wp-content/uploads/2015/10/space-explosion-wallpaper.jpg");
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top center !important;
+background-repeat: no-repeat !important;
+background-attachment: fixed;
+}
+
+
 
 /* miscellaneous */
 
@@ -159,6 +171,10 @@ textarea {
   font-size: 2em;
   border-size: solid 1px blue;
   background-color: lightblue;
+}
+
+.glyphicon {
+  font-size: 100px;
 }
 /* sidebar */
 
@@ -245,4 +261,11 @@ input {
     padding: 10px 0;
     border-bottom: 1px solid $gray-lighter;
   }
+}
+
+/* Photo */
+.photo-text {
+  text-align: center;
+  
+  color: white;
 }
