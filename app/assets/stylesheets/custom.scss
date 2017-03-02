@@ -91,6 +91,9 @@ p {
   line-height: 1.7em;
 }
 body {
+  background: #3E4649;
+  color: #f7f7f7;
+  font-family: sans-serif;
   padding-top: 60px;
 }
 
@@ -104,10 +107,14 @@ textarea {
 
 .center {
   text-align: center;
+  background: #27a967;
+  color: white;
 }
 
 .center h1 {
   margin-bottom: 10px;
+  color: white;
+  font-size: 26px;
 }
 
 /* miscellaneous */
