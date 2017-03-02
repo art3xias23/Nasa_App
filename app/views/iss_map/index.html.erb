@@ -16,7 +16,8 @@ function myMap() {
   var mapCanvas = document.getElementById("map");
   var mapOptions = {
     center: myLatLng,
-     zoom: 3
+    mapTypeId: 'hybrid',
+    zoom: 3
   }
   var map = new google.maps.Map(mapCanvas, mapOptions);
   // var image = 'http://icons.iconarchive.com/icons/jonathan-rey/star-wars-vehicles/256/Trade-Federation-Battleship-icon.png'
