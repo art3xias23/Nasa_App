@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 20170303161306) do
     t.index ["user_id", "created_at"], name: "index_microposts_on_user_id_and_created_at"
     t.index ["user_id"], name: "index_microposts_on_user_id"
   end
+end
 
 ActiveRecord::Schema.define(version: 20170303155206) do
 
@@ -40,6 +41,6 @@ ActiveRecord::Schema.define(version: 20170303155206) do
 
 
     t.index ["email"], name: "index_users_on_email", unique: true
-
+  end
 
 end
