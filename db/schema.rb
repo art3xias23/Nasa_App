@@ -10,14 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170301182304) do
+ActiveRecord::Schema.define(version: 20170303161306) do
 
-  create_table "locations", force: :cascade do |t|
-    t.string   "address"
-    t.float    "latitude"
-    t.float    "longitude"
+  create_table "microposts", force: :cascade do |t|
+    t.text     "content"
+    t.integer  "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["user_id", "created_at"], name: "index_microposts_on_user_id_and_created_at"
+    t.index ["user_id"], name: "index_microposts_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|
@@ -31,8 +32,12 @@ ActiveRecord::Schema.define(version: 20170301182304) do
     t.string   "activation_digest"
     t.boolean  "activated",         default: false
     t.datetime "activated_at"
+
     t.string   "reset_digest"
     t.datetime "reset_sent_at"
+    t.datetime "activated_at"
+    t.boolean  "activated"
+    t.string   "activation_digest"
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 
