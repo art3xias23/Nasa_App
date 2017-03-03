@@ -1,4 +1,21 @@
-<<div class="center jumbotron">
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render 'shared/user_info' %>
+      </section>
+      <section class="micropost_form">
+        <%= render 'shared/micropost_form' %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3>Micropost Feed</h3>
+      <%= render 'shared/feed' %>
+    </div>
+  </div>
+<% else %>
+
+<div class="center jumbotron">
   <h1>Welcome to the NASA App</h1>
 
  
@@ -20,15 +37,16 @@ Go ahead and check if it flyes above your city!</p>
 	<div class="row">
 		<div class="col-md-4">
 			<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-			<h3>User Friendly Interface</h3>
+			<h3><%= link_to "User Friendly Interface", root_path %></h3>
 		</div>
 		<div class="col-md-4">
 			<span class="glyphicon glyphicon glyphicon-picture" aria-hidden="true"></span>
-			<h3>Nasa Photo of the Day</h3>
+			<h3><%= link_to "Nasa Photo of the Day", nasaindex_path %></h3>
 		</div>
 		<div class="col-md-4">
 			<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
-			<h3> Where is ISS </h3>
+			<h3><%= link_to "Where is ISS", issdata_path %></h3>
 		</div>
 	</div>
 </div>
+<%end%>
