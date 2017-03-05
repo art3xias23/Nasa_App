@@ -8,7 +8,16 @@
   box-sizing:         border-box;
 }
 
-
+html {
+  background-size: cover;
+  background-image: url("http://www.wallpaperhd.pk/wp-content/uploads/2015/10/space-explosion-wallpaper.jpg");
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top center !important;
+background-repeat: no-repeat !important;
+background-attachment: fixed;
+}
 #error_explanation {
   color: red;
   ul {
@@ -112,25 +121,29 @@ p {
   font-size: 1.1em;
   line-height: 1.7em;
 }
-.jumbotron {
-  
-background-image: url("http://www.wallpaperhd.pk/wp-content/uploads/2015/10/space-explosion-wallpaper.jpghd.pk/wp-content/uploads/2015/10/space-explosion-wallpaper.jpg");
+
+
+ .jumbotron {
+
+
+background-image: url("http://www.wallpaperhd.pk/wp-content/uploads/2015/10/space-explosion-wallpaper.jpg");
 -moz-background-size: cover;
- -webkit-background-size: cover;
-margin: 0 auto;
- background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
 background-position: top center !important;
 background-repeat: no-repeat !important;
 background-attachment: fixed;
-
+  a {
+    color: white;
+    text-shadow: 3px 3px black;
+    font-weight: bold;
+    }
 }
-
-
 
 
 body {
 
-  background: #3E4649;
+  background: transparent;
   color: #f7f7f7;
   font-family: sans-serif;
   padding-top: 60px;
@@ -157,20 +170,7 @@ textarea {
   font-size: 26px;*/
 }
 
- .jumbotron {
-background-image: url("http://www.wallpaperhd.pk/wp-content/uploads/2015/10/space-explosion-wallpaper.jpg");
--moz-background-size: cover;
--webkit-background-size: cover;
-background-size: cover;
-background-position: top center !important;
-background-repeat: no-repeat !important;
-background-attachment: fixed;
-  // a {
-  //   color: white;
-  //   text-shadow: 3px 3px black;
-  //   font-weight: bold;
-  //   }
-}
+
 
 
 
