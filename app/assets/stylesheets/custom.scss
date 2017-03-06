@@ -75,7 +75,9 @@ ul {
  }
 }
 
-
+p {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
   a {
 color: #40E0D0;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -280,7 +282,11 @@ input {
 .users {
   list-style: none;
   margin: 0;
+  a {
+    color: #1E90FF;
+  }
   li {
+     background-color: rgba(0,0,0,0.5);
     overflow: auto;
     padding: 10px 0;
     border-bottom: 1px solid $gray-lighter;
@@ -299,7 +305,17 @@ input {
 .microposts {
   list-style: none;
   padding: 0;
+a {
+  color: #1E90FF;
+}
   li {
+    
+    background-color: rgba(0,0,0,0.5);
+    
+    font-size: 16px;
+    font-weight: solid;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     padding: 10px 0;
     border-top: 1px solid #e8e8e8;
   }
