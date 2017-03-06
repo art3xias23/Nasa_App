@@ -1,13 +1,10 @@
 <% provide(:title, 'Where is the ISS?') %>
-
-<h3>Name: <%= @iss_api["name"] %></h3>
-<h3>ID: <%= @iss_api["id"] %></h3>
-<h3>Latitude: <%= @iss_api["latitude"] %></h3>
-<h3>Longitude: <%= @iss_api["longitude"] %></h3>
-<h3>Altitude: <%= @iss_api["altitude"] %> km</h3>
-<h3>Timestamp: <%= @iss_api["timestamp"] %></h3>
+<div class="center_jumbotron">
+<h1>Find the location of the International Space Station below</h1>
 
 
+</div>
+<br><br>
 <div id="map" style="width:100%;height:500px"></div>
 
 <script>
@@ -40,3 +37,11 @@ function myMap() {
 </script>
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAl_HNyGKtqngYbGX_dWSsC1yQMMGHofFE&callback=myMap"></script>
+<div class="center_jumbotron">
+<h3>Name: <%= @iss_api["name"] %></h3>
+<h3>ID: <%= @iss_api["id"] %></h3>
+<h3>Latitude: <%= @iss_api["latitude"] %></h3>
+<h3>Longitude: <%= @iss_api["longitude"] %></h3>
+<h3>Altitude: <%= @iss_api["altitude"] %> km</h3>
+<h3>Timestamp: <%= @iss_api["timestamp"] %></h3>
+</div>

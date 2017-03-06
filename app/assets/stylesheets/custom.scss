@@ -9,6 +9,7 @@
 }
 
 html {
+ 
   background-size: cover;
   background-image: url("http://www.wallpaperhd.pk/wp-content/uploads/2015/10/space-explosion-wallpaper.jpg");
 -moz-background-size: cover;
@@ -30,13 +31,13 @@ background-attachment: fixed;
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: light-blue;
+  color: #1E90FF;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
   &:hover {
-  color: dark-blue;
+  color: white;
   text-decoration: none;
 }
 }
@@ -56,7 +57,7 @@ footer {
   border-top: 1px solid #eaeaea;
   color: #777;
  a {
-  color: white;
+  
   &hover {
     color: dark-blue;
   }
@@ -69,6 +70,7 @@ ul {
    float: right;
   list-style: none;
   li {
+
     float: left;
     margin-left: 15px;
   }
@@ -86,7 +88,7 @@ color: #40E0D0;
 header {
   position: fixed;
   a {
-  color: white;
+  color: #1E90FF;
   &hover {
     color: dark-blue;
   }
@@ -94,6 +96,7 @@ header {
 }
 /* typography */
 h1, h2, h3, h4, h5, h6 {
+   font-family: FGB;
   line-height: 1;
   text-shadow: 2px 2px black;
 }
@@ -142,10 +145,15 @@ background-attachment: fixed;
     }
 }
 
+.row {
+  a {
+    color: #1E90FF;
+  }
+}
 
 body {
 
-  background: transparent;
+  // background: transparent;
   color: #f7f7f7;
   font-family: sans-serif;
   padding-top: 60px;
@@ -158,9 +166,13 @@ section {
 textarea {
   resize: vertical;
 }
-
-.center {
+.center_jumbotron{
   
+  background-color: rgba(0,0,0,0.5);
+ 
+}
+.center {
+
   text-align: center;
   /*background: #E9967A;
   color: grey; */

@@ -19,7 +19,7 @@
 <% else %>
 
 
-<div class="center jumbotron">
+<div class="center_jumbotron">
   <h1>Welcome to the NASA App</h1>
 
  
@@ -29,28 +29,29 @@
 Go ahead and check if it flyes above your city!</p>
 
  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
-</div>
+
  <%#= link_to image_tag("rails.png", alt: "Rails logo"),
             'http://rubyonrails.org/' %> 
 
 
 
 <%#=  image_tag("kitten.jpg", alt: "Funny kitty") %>
-<br><br><br>
-<div class="container">
-	<div class="row">
-		<div class="col-md-4">
-			<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-			<h3><%= link_to "User Friendly Interface", root_path %></h3>
-		</div>
-		<div class="col-md-4">
-			<span class="glyphicon glyphicon glyphicon-picture" aria-hidden="true"></span>
-			<h3><%= link_to "Nasa Photo of the Day", nasaindex_path %></h3>
-		</div>
-		<div class="col-md-4">
-			<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
-			<h3><%= link_to "Where is ISS", issdata_path %></h3>
-		</div>
-	</div>
+  <br><br><br>
+  <div class="container">
+  	<div class="row">
+  		<div class="col-md-4">
+  			<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+  			<h3><%= link_to "User Friendly Interface", root_path %></h3>
+  		</div>
+  		<div class="col-md-4">
+  			<span class="glyphicon glyphicon glyphicon-picture" aria-hidden="true"></span>
+  			<h3><%= link_to "Nasa Photo of the Day", nasaindex_path %></h3>
+  		</div>
+  		<div class="col-md-4">
+  			<span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+  			<h3><%= link_to "Where is ISS", issdata_path %></h3>
+  		</div>
+  	</div>
+  </div>
+  <%end%>
 </div>
-<%end%>
