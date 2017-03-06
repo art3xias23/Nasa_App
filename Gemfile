@@ -19,7 +19,7 @@ gem 'turbolinks',              '5.0.1'
 gem 'jbuilder',                '2.4.1'
 #this gem helps the nasa_api run smoothly on heroku
 gem 'rails_12factor'
-
+gem 'rails-ajax'
 group :development, :test do
   gem 'sqlite3', '1.3.12'
   gem 'byebug',  '9.0.0', platform: :mri
