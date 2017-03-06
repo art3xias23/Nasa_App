@@ -1,0 +1,280 @@
+commit 506d73e9c211479a1486161040c92ced63e4397a
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Sun Mar 5 11:13:55 2017 +0000
+
+    Final version
+
+commit 788ea17d2914eff6706f5f99f244f3a190538f63
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Sat Mar 4 13:44:59 2017 +0000
+
+    asd
+
+commit 5e2615a915aaeec9fce3800bae2b6fff59f2ff0b
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Sat Mar 4 13:41:02 2017 +0000
+
+    config.assets.compile changed in production.rb
+
+commit 7f506c871976a560a254e0cf762c76f327efbb9a
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Fri Mar 3 19:41:02 2017 +0000
+
+    activated at removed
+
+commit 55ae6923a56e6e45d54346aa20c748a94274348c
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Fri Mar 3 19:31:39 2017 +0000
+
+    routes post /signup deleted
+
+commit 138c3d787cbb79e8a32a464c67d1f69c194b0067
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Fri Mar 3 19:30:59 2017 +0000
+
+    routes post /signup deleted
+
+commit d6d40c23cac1c25639233d6c37dee576af1fb618
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Fri Mar 3 19:26:44 2017 +0000
+
+    signup path url: signup_path added
+
+commit be451cd170c880c4b3910f3f01d67144d307149e
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Fri Mar 3 19:17:03 2017 +0000
+
+    ready
+
+commit 5d3862bbb134e2e013bbb9194ec3e2ead659fb8f
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Fri Mar 3 19:02:12 2017 +0000
+
+    ALL TESTS WORKINGgit add -A!
+
+commit bb808c6f72e884ef8ad292571af261da51775a60
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Fri Mar 3 18:20:45 2017 +0000
+
+    Microposts working!
+
+commit 8837bf58cdff83033d6d147270d998a92c380a87
+Merge: 204f0ec 645c429
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Fri Mar 3 18:19:21 2017 +0000
+
+    asd
+
+commit 204f0ec67c6ebe34a099815d72be2f7ca3cf4bb4
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Fri Mar 3 18:13:47 2017 +0000
+
+    commit
+
+commit 1a77741a86aac9a7a8243e2b2f9ed0505b8c553d
+Merge: 83f080f 8e2c671
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Fri Mar 3 18:01:25 2017 +0000
+
+    asd
+
+commit 645c429b0ed0ce1b2b239c1e1d1057ee77e773ae
+Author: art3xias23 <k.milchev.12@aberdeen.ac.uk>
+Date:   Fri Mar 3 17:59:35 2017 +0000
+
+    fixed several tests
+
+commit 8e2c67174817aef89331c73e1d10be79164e96fc
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Fri Mar 3 17:55:56 2017 +0000
+
+    microposts
+
+commit fa7a1ec7ca5e19cc8ef6221876231a5fbda3e2f8
+Author: stuart melville <stuart.melville.16@aberdeen.ac.uk>
+Date:   Fri Mar 3 13:25:36 2017 +0000
+
+    password reset changes
+
+commit 83f080f0bc5575617f0b0cc192413a1a15cc7ae1
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Fri Mar 3 13:22:48 2017 +0000
+
+    stuff
+
+commit d2ef5489a17c95eedd4278426c5a242418c2e438
+Author: stuart melville <stuart.melville.16@aberdeen.ac.uk>
+Date:   Fri Mar 3 13:17:52 2017 +0000
+
+    Updated account activation welcome
+
+commit 0af1c6fbf67c8c7db9402f48d09c0f9aea4ad15b
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Fri Mar 3 12:23:02 2017 +0000
+
+    asd
+
+commit 9825d074cce488b440291b8b0be667363d57d7f4
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Thu Mar 2 22:57:22 2017 +0000
+
+    Enough for today!
+
+commit 90dbcbae4ccf570dafb723cc75868c3b9ca5d526
+Merge: 734c404 bbb6987
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Thu Mar 2 21:54:17 2017 +0000
+
+    ready
+
+commit 734c4040978262502b80f51af52620863276c9d5
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Thu Mar 2 21:50:22 2017 +0000
+
+    asd
+
+commit bbb6987041cafdff535525329f64b2de82e0b369
+Author: art3xias23 <k.milchev.12@aberdeen.ac.uk>
+Date:   Thu Mar 2 19:09:06 2017 +0000
+
+    Added background, adjusted text on nasa photo
+
+commit 61a0db7f9991dfaff8b97ab845ac5839434681a8
+Author: art3xias23 <k.milchev.12@aberdeen.ac.uk>
+Date:   Thu Mar 2 18:43:19 2017 +0000
+
+    Icons and footer edits
+
+commit c657b04310f3e7a16fa3d80edf3917aefd16d7ed
+Author: art3xias23 <k.milchev.12@aberdeen.ac.uk>
+Date:   Thu Mar 2 18:38:56 2017 +0000
+
+    Add Homepage glyphicons
+
+commit da0b4712e7253566d966508c7cbf2f6481639f33
+Author: art3xias23 <k.milchev.12@aberdeen.ac.uk>
+Date:   Thu Mar 2 18:01:41 2017 +0000
+
+    Partial CSS
+
+commit cefb2294199e7026739dcfd68f40e7b16d37cf29
+Author: art3xias23 <k.milchev.12@aberdeen.ac.uk>
+Date:   Thu Mar 2 15:58:47 2017 +0000
+
+    Pages change every 3 seconds
+
+commit c05557ceb757681e5708d4854807855751774bc2
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Thu Mar 2 13:39:07 2017 +0000
+
+    Starwars Map working
+
+commit ceb5a74679dc0d206d2041255961ae8f64e6cbdc
+Author: art3xias23 <k.milchev.12@aberdeen.ac.uk>
+Date:   Wed Mar 1 17:15:49 2017 +0000
+
+    started iss map
+
+commit 444d02c2adb9b545506425f6ed5c7f363fe45750
+Author: art3xias23 <k.milchev.12@aberdeen.ac.uk>
+Date:   Wed Mar 1 16:56:10 2017 +0000
+
+    Added ISS API coordinates
+
+commit 03fda6d897157d51a12ec8a0a113cb982050ad77
+Merge: 298e867 9cb159d
+Author: art3xias23 <k.milchev.12@aberdeen.ac.uk>
+Date:   Wed Mar 1 15:52:07 2017 +0000
+
+    Merge branch 'master' of https://bitbucket.org/donchev1/sample_app
+
+commit 298e8671b3f14a1578d33de21fe6b22b9fe9da50
+Author: art3xias23 <k.milchev.12@aberdeen.ac.uk>
+Date:   Wed Mar 1 15:51:45 2017 +0000
+
+    experimenting with .env
+
+commit 9cb159ddf450042fe0b8e9280e73d23aed921e4c
+Merge: 58e8e5e 9d1b8ec
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Wed Mar 1 15:45:46 2017 +0000
+
+    Merge branch 'master' of bitbucket.org:donchev1/sample_app
+
+commit 58e8e5e5fbc6c222536c015b2ecc10531c13d150
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Wed Mar 1 15:40:49 2017 +0000
+
+    Admin: update,delete, make admins
+
+commit 9d1b8ec067801b78e8df7d7ba0503198773579ff
+Author: art3xias23 <k.milchev.12@aberdeen.ac.uk>
+Date:   Wed Mar 1 15:40:45 2017 +0000
+
+    Added title to nasa_picture_controller index view
+
+commit a19f1a7ed2d6f75392a1a21355c03065375652bc
+Author: art3xias23 <k.milchev.12@aberdeen.ac.uk>
+Date:   Wed Mar 1 15:31:48 2017 +0000
+
+    Repaired .env, routes.rb and _header.html.erb
+
+commit 0ff4a435ef7f8163c930ce36532b3c767f8cb874
+Author: art3xias23 <k.milchev.12@aberdeen.ac.uk>
+Date:   Wed Mar 1 14:53:12 2017 +0000
+
+    Adjust the model, add a controller and a view for the picture
+
+commit 6cf63edd098bf1da85198543f142b4f260212012
+Author: art3xias23 <k.milchev.12@aberdeen.ac.uk>
+Date:   Wed Mar 1 14:41:52 2017 +0000
+
+    Hide the API key in a file and add the file to the .gitignore
+
+commit b84ad93b53cd6f2f0ce8ee2ac7d3d715556393dd
+Author: art3xias23 <k.milchev.12@aberdeen.ac.uk>
+Date:   Wed Mar 1 14:35:57 2017 +0000
+
+    Nasa Api model
+
+commit 00e0a8b04fc2ff52f5c312edaeb25b545f46564c
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Tue Feb 28 17:39:03 2017 +0000
+
+    add password reset
+
+commit 1b09fa84d1fec9fa756a86f9938b990fd8e7438d
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Tue Feb 28 13:30:35 2017 +0000
+
+    asd
+
+commit 3f37a92e7ba7094080056c8c4b738db735ef97b1
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Tue Feb 28 13:11:51 2017 +0000
+
+    Add account activation with heroku
+
+commit 6c0dd4d145fc06b34d1feff7440e7775218d8414
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Tue Feb 28 12:20:49 2017 +0000
+
+    Account activation working
+
+commit 6c600c1f849c39e409352e9b66a8b783a9531067
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Thu Feb 23 21:33:12 2017 +0000
+
+    asd
+
+commit d6c19b6a957b4fce940143bcdeaa033bf662f93b
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Thu Feb 23 16:16:33 2017 +0000
+
+    User edit, update, index, and destroy actions done.
+
+commit e8a639758083ba4290445ef1f7711f8c752159ab
+Author: Alex Donchev <a.donchev.12@aberdeen.ac.uk>
+Date:   Wed Feb 22 18:08:31 2017 +0000
+
+    tests working
